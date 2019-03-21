@@ -2,6 +2,6 @@
 
 Using this ZEST script, we can store the result of the Fuzzing responses of the OWASP ZAP.
 
-For that, you have to add this script into the Fuzzer HTTP Processor and add same file in Message Processor while configuring your fuzzing logic.
+For that, you have to add this script into the Fuzzer HTTP Processor and enable it. Also, you have to add and select same script manully from message processor while configuring Fuzzing logic.
 
-You can modify the response by changing OUTPUT_DIR variable. (i.e here directory is /root/Documents/)
+You can modify the directory to save responses by changing OUTPUT_DIR variable. (i.e here directory is /root/Documents/)
